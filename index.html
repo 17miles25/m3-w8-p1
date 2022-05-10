@@ -13,9 +13,33 @@
             padding:7px;
             margin-left:10px;
         }
-        .profile-image{
-            width:;
-            height: 2px;
+        div:first-of-type>ul>li>a{
+            color:#606061 !important;
+        }
+        .jumbotron{
+            background-color: #754FFE !important;
+            padding: 0px !important;
+        }
+        .jumbo-text{
+            position: relative;
+            padding:60px;
+            left: 150px;
+            top: 40px;
+        }
+        h1{
+            color:white !important;
+        }
+        span.lead{
+            color:white !important;
+        }
+        p.lead{
+            position: relative;
+            top: 20px;
+            bottom:3px;
+        }
+        h1.h1{
+            position: relative;
+            bottom: 10px
         }
         
     </style>
@@ -90,12 +114,36 @@
                 <span class="text-light"> Username </span>
             </button>
             <ul class="dropdown-menu show" aria-labelledby="dropdownMenuButton1" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 33px, 0px);" data-popper-placement="bottom-start">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"></i>Profile</a></li>
+                <li><a class="dropdown-item" href="#">Subscription</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#">Sign Out</a></li>
             </ul>
         </div>
     </nav>
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6 jumbo-text ">
+                <h1 class="h1">Welcome Web Students!</h1>
+                <span class="lead h1">Hand-picked instructor and expertly crafted</span>
+                <br>
+                <span class="lead h1">courses, designed for the modern students and</span>
+                <br>
+                <span class="lead">entrepreneur</span>
+                
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" style="background-color:#1ACB98 ;color:white"  href="#" role="button">Browse Cookies</a>
+                  <a class="btn btn-primary btn-lg" style="background-color:white ;color:black" href="#" role="button">Are You An Instructor?</a>
+                </p>
+            </div>
+            <div class="col-md-6 ">
+                <img style="width:400px" src="assets\assets\hero-img.png">
+            </div>
+        </div>
+    </div>
+    
     
 </body>
 </html>
